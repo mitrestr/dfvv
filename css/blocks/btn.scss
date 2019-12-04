@@ -1,0 +1,14 @@
+.btn {
+  padding: 12px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: $red;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  font-size: 13px;
+  font-weight: 500;
+}
+.btn:hover {
+  background: #1f2122;
+}

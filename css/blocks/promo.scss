@@ -1,0 +1,41 @@
+.promo {
+  background-image: url("/img/Rectangle 11.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.promo__container {
+  height: 100%;
+  display: flex;
+}
+
+.promo__content {
+  display: flex;
+  align-items: center;
+}
+.promo__title {
+  margin-left: 20px;
+}
+
+.promo__subtitle {
+  @include lifehack();
+  margin-top: 20px;
+  font-size: 56px;
+  color: $white;
+  line-height: 1;
+}
+
+.promo__scroll-btn {
+  width: 29px;
+  height: 15px;
+  background-image: url("/img/arrow-scroll.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translatex(-50%);
+}

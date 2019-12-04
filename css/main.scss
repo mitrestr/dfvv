@@ -1,0 +1,26 @@
+//colors
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+$white: #fff;
+
+$z-fixed-menu: 100;
+
+//normalize
+@import "_misc/normalize.scss";
+
+// setups
+@import "_misc/mixins";
+@import "_misc/fonts";
+@import "_misc/layout";
+
+// blocks
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/btn";
+@import "blocks/promo";
+@import "blocks/benefits";
+@import "blocks/reviews";
+@import "blocks/fixed-menu";
+
