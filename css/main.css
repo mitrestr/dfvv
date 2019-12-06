@@ -451,8 +451,7 @@ body {
   margin: 0 auto; }
 
 .section {
-  height: 100vh;
-  min-height: 650px;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,6 +583,7 @@ button {
 
 .promo {
   background-image: url("/dfvv/img1/list1.jpg");
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
