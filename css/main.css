@@ -583,7 +583,7 @@ button {
   background: #1f2122; }
 
 .promo {
-  background-image: url("./dfvv/img1/list1.jpg");
+  background-image: url("/dfvv/img1/list1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -616,7 +616,7 @@ button {
 .promo__scroll-btn {
   width: 29px;
   height: 15px;
-  background-image: url("./dfvv/img1/arrow-scroll.png");
+  background-image: url("/dfvv/img1/arrow-scroll.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
@@ -628,7 +628,7 @@ button {
   transform: translatex(-50%); }
 
 .benefits {
-  background-image: url("./dfvv/img1/bg1.jpg");
+  background-image: url("/dfvv/img1/bg1.jpg");
   height: 650px; }
 
 .benefits__title {
