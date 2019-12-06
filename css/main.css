@@ -451,7 +451,6 @@ body {
   margin: 0 auto; }
 
 .section {
-  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
