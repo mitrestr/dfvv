@@ -451,8 +451,7 @@ body {
   margin: 0 auto; }
 
 .section {
-  height: 100vh;
-  min-height: 650px;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -590,7 +589,7 @@ button {
   position: relative; }
 
 .promo__container {
-  height: 100%;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -664,7 +663,7 @@ button {
   color: rgba(47, 50, 52, 0.8); }
 
 .reviews__list {
-  height: 100%;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -714,7 +713,7 @@ button {
 .fixed-menu {
   position: fixed;
   top: 100px;
-  right: 360px;
+  right: 330px;
   z-index: 2; }
 
 .fixed-menu__dot {
