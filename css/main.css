@@ -714,7 +714,7 @@ button {
 .fixed-menu {
   position: fixed;
   top: 100px;
-  right: 60px;
+  right:330px;
   z-index: 2; }
 
 .fixed-menu__dot {
