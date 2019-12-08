@@ -471,7 +471,7 @@ body {
   .title--color--black {
     color: #2f3234; }
   .title--color--white {
-    color: #fff; }
+    color: #c1401e; }
   .title--centered {
     text-align: center; }
 
@@ -615,7 +615,7 @@ button {
 .promo__scroll-btn {
   width: 29px;
   height: 15px;
-  background-image: url("/img1/arrow-scroll.png");
+  background-image: url("/dfvv/img/arrow-scroll.png");
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
