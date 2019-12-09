@@ -4,25 +4,45 @@ $yellow: #f9b43b;
 $black: #2f3234;
 $red: #e35028;
 $white: #fff;
-
-$z-fixed-menu: 100;
+$phones: 480px;
 $tablets: 768px;
+$laptop: 992px;
+$desktop: 1200px;
+
 //normalize
 @import "_misc/normalize.scss";
 
+// media
+@import "_misc/media";
 // setups
 @import "_misc/mixins";
 @import "_misc/fonts";
 @import "_misc/layout";
+@import "_misc/animations.scss";
 
 // blocks
-@import "blocks/header";
-@import "blocks/nav";
-@import "blocks/btn";
-@import "blocks/promo";
-@import "blocks/benefits";
-@import "blocks/reviews";
-@import "blocks/fixed-menu";
-@import "blocks/team";
-@import "blocks/team-acco"
-
+@import "blocks/best.scss";
+@import "blocks/btn.scss";
+@import "blocks/burger-slider-wrap.scss";
+@import "blocks/burger-weight.scss";
+@import "blocks/burgers.scss";
+@import "blocks/fixed-menu.scss";
+@import "blocks/footer.scss";
+@import "blocks/hamburger-menu-link.scss";
+@import "blocks/hamburger-menu.scss";
+@import "blocks/header.scss";
+@import "blocks/hero.scss";
+@import "blocks/logo.scss";
+@import "blocks/map.scss";
+@import "blocks/menu-acco.scss";
+@import "blocks/menu.scss";
+@import "blocks/nav.scss";
+@import "blocks/order-link.scss";
+@import "blocks/order.scss";
+@import "blocks/popups.scss";
+@import "blocks/reviews.scss";
+@import "blocks/section.scss";
+@import "blocks/socials.scss";
+@import "blocks/team-acco.scss";
+@import "blocks/team.scss";
+@import "blocks/text-block.scss";

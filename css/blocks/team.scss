@@ -1,22 +1,13 @@
 .team {
-	background: url("./img1/people.jpg") 50% no-repeat;
+	background: url("../../img/bg/team.jpg") 50% no-repeat;
 	background-size: cover;
 	position: relative;
 
 	.section__title {
 		margin-bottom: 12%;
 	}
+
 	@include tablets {
-		position: relative;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		top: 0;
-		text-align: center;
-		background: transparent;
-		padding: 0;
-	}
-	@mixin tablets {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -43,5 +34,16 @@
 	background: rgba(#2f3234, .93);
 	padding: 5% 2% 0 7%;
 
+
+	@include tablets {
+		position: relative;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		text-align: center;
+		background: transparent;
+		padding: 0;
+	}
 }
 

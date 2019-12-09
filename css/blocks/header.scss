@@ -1,18 +1,31 @@
 .header {
-  position: absolute;
-  width: 100%;
-  padding-top: 12px;
-  z-index: 1;
-  height: 650px;
+	padding-top: rem(12px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.header__container {
+.header__logo {
+	@include laptop {
+		width: 15%;
+	}
+}
+
+.header__links {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  
 }
 
-.header__wrapper {
-  margin-left: 15px;
+.header__menu {
+	flex: 1;
+	text-align: right;
+	margin-right: rem(20px);
+
+	@include laptop {
+		width: 85%;
+	}
+
+	@include tablets {
+		text-align: right;
+	}
 }
