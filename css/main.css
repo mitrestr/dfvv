@@ -627,9 +627,10 @@ button {
   transform: translatex(-50%); }
 
 .benefits {
-  background-image: url("/dfvv/img1/bg1.jpg");
+  background: url("/dfvv/img1/bg1.jpg") no-repeat;
   min-height: 650px; 
-   background-size: 100%;}
+  background-size: cover;
+}
 
 .benefits__title {
   text-align: center;
