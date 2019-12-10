@@ -513,11 +513,16 @@ button {
   color: inherit; }
 
 .header {
-  position: absolute;
-  width: 100%;
-  padding-top: 12px;
-  z-index: 1;
-  height: 650px; }
+padding-top: 0.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;  }
 
 .header__container {
   display: -webkit-box;
