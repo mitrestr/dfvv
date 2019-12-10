@@ -659,12 +659,12 @@ padding-top: 0.75rem;
 .benefits__img {
   margin-bottom: 30px; }
 
-.benefits__list div {
+.benefits__list div{
   margin-bottom: 30px;
   font-family: 'Lifehack-Medium';
   font-size: 24px; }
 
-.benefits__list p {
+.benefits__list p{
   font-family: 'Ubuntu-Light';
   font-size: 14px;
   color: rgba(47, 50, 52, 0.8); }
