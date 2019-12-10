@@ -532,6 +532,10 @@ button {
 .header__wrapper {
   margin-left: 15px; }
 
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+}
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
