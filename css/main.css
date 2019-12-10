@@ -519,6 +519,7 @@ button {
   height: 650px; }
 
 .header__container {
+   padding-top: 0.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
