@@ -450,8 +450,7 @@ body {
   margin: 0 auto; }
 
 .section {
-  height: 100vh;
-  min-height: 650px;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -594,7 +593,7 @@ padding-top: 0.75rem;
   position: relative; }
 
 .promo__container {
-  height: 100%;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -632,10 +631,13 @@ padding-top: 0.75rem;
   transform: translatex(-50%); }
 
 .benefits {
+
+
   background: url("/dfvv/img1/bg1.jpg") no-repeat;
   min-height: 650px; 
   background-size: cover;
 }
+
 
 .benefits__title {
   text-align: center;
@@ -670,7 +672,7 @@ padding-top: 0.75rem;
   color: rgba(47, 50, 52, 0.8); }
 
 .reviews__list {
-  height: 100%;
+  height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -720,7 +722,7 @@ padding-top: 0.75rem;
 .fixed-menu {
   position: fixed;
   top: 100px;
-  right: 60px;
+  right: 330px;
   z-index: 2; }
 
 .fixed-menu__dot {

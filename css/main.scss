@@ -6,7 +6,7 @@ $red: #e35028;
 $white: #c1401e;
 
 $z-fixed-menu: 100;
-
+$tablets: 768px;
 //normalize
 @import "_misc/normalize.scss";
 
@@ -23,4 +23,6 @@ $z-fixed-menu: 100;
 @import "blocks/benefits";
 @import "blocks/reviews";
 @import "blocks/fixed-menu";
+@import "blocks/team";
+@import "blocks/team-acco"
 
