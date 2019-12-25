@@ -1,0 +1,84 @@
+.popup-area {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(47, 50, 52, 0.92);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 9999999;
+}
+.popup-area__wrapper {
+	height: 100vh;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.popup {
+	display: inline-block;
+	background: white;
+	border-radius: 10px;
+}
+
+.full-review {
+	width: rem(450px);
+	height: rem(250px);
+	padding: rem(25px) rem(20px);
+	position: relative;
+}
+
+.full-review__title {
+	@include gagalin;
+	font-size: rem(14px);
+	text-transform: uppercase;
+	margin-bottom: rem(25px);
+}
+
+.full-review__content {
+	font-size: rem(14px);
+	@include ubuntu();
+}
+
+.full-review__close {
+	width: rem(18px);
+	height: rem(18px);
+	display: block;
+	position: absolute;
+	right: rem(20px);
+	top: rem(20px);
+	opacity: .7;
+	transition: .3s;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.status-popup__inner {
+	padding: rem(20px);
+	text-align: center;
+}
+
+.status-popup__message {
+	margin-bottom: rem(20px);
+	font-size: rem(14px);
+}
+
+.status-popup {
+	width: rem(240px);
+}
+
+.error-message {
+	color: $red;
+}
+
+

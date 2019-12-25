@@ -1,0 +1,24 @@
+.section {
+	position: relative;
+	display: flex;
+    overflow: hidden;
+  
+	@include tablets {
+		overflow: auto;
+	}
+}
+
+.section__title {
+	color: $yellow;
+	font-size: rem(72px);
+	@include gagalin;
+
+
+	&.section__title_black {
+		color: $black;
+	}
+
+	&.section__title_white {
+		color: white;
+	}
+}

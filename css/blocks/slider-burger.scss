@@ -1,0 +1,180 @@
+.slider-burger__wrapper {
+    display: flex;
+    align-items: center;
+    user-select: none;
+  
+}
+.slider-burger__slides {
+    flex: 1;
+}
+.slider-burger__arrow {
+    width: rem(17px);
+    height: rem(31px);
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.slider-burger__slide {
+    display: flex;
+    align-items: center;
+    @include tablets() {
+        flex-direction: column;
+        text-align: center;
+        margin-top:140px;
+        margin-bottom:30px;
+      }
+    @include phones() {
+        flex-direction: column;
+        text-align: center;
+        margin-top:140px;
+        margin-bottom:30px;
+      }
+    & > div {
+        flex: 1;
+        &:first-child {
+            text-align: center;
+            & > div {
+                position: relative;
+                display: inline-block;
+                padding: 50px 0px;
+            }
+        }
+    }
+    img {
+        width: rem(350px);
+
+        @include phones() {
+            width: rem(270px);
+    }
+}
+    svg {
+        position: absolute;
+    }
+}
+.slider-burger{
+        background-image: -moz-linear-gradient( 90deg, rgb(249,180,59) 0%, rgb(235,140,56) 48%, rgb(249,180,59) 74%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(249,180,59) 0%, rgb(235,140,56) 48%, rgb(249,180,59) 74%);
+        background-image: -ms-linear-gradient( 90deg, rgb(249,180,59) 0%, rgb(235,140,56) 48%, rgb(249,180,59) 74%);
+    
+       
+
+}
+.slider-burger__name{
+    @include gagalin;
+    color:#ffffff;
+    font-size: rem(71.92px);
+    width: 350px;
+    text-align: center;
+    @include tablets() {
+        font-size: rem(60.92px);
+     
+      }
+    @include phones() {
+        font-size: rem(40.92px);
+        width: 280px;
+      }
+}
+.slider-burger__description{
+    @include tablets() {
+        width: rem(350px);
+        font-size: rem(13.98px);
+       }
+       @include phones() {
+        width: rem(280px);
+        font-size: rem(11.98px);
+       }
+    @include ubuntu(light);
+    color:#ffffff;
+    font-size: rem(13.98px);
+   width: rem(360px);
+}
+.slider-burger__composition{
+    @include tablets() {
+        border-radius: rem(5px);
+        background-color: #f08c33;
+        position: absolute;
+        left: rem(0px);
+        bottom: rem(230px);
+        width: rem(90px);
+        height: rem(90px);
+      }
+        border-radius: rem(5px);
+        background-color: #f08c33;
+        position: absolute;
+        left: rem(0px);
+        bottom: rem(250px);
+        width: rem(90px);
+        height: rem(90px);
+        
+      
+}
+.slider-burger__text{
+    @include gagalin;
+    font-size: rem(14px);
+}
+.slider-burger__kkal{
+    @include tablets() {
+        position: absolute;
+        right: rem(0px);
+        top: rem(-210px);
+        width: rem(90px);
+        height: rem(90.18px);
+        opacity: 0.5;
+    
+    }
+
+    position: absolute;
+    right: rem(250px);
+    top: rem(110px);
+    width: rem(90px);
+    height: rem(90.18px);
+    opacity: 0.5;
+}
+.slider-burger__weight{
+    @include gagalin;
+    font-size: rem(20px);
+    opacity:0.5;
+}
+.slider-burger__kall{
+    @include gagalin;
+    font-size: rem(14px);
+    opacity:0.5;
+}
+.slider-burger__cost{
+    @include gagalin;
+    font-size: rem(71.92px);
+    color: #e35028;
+    display: inline-block;
+    @include tablets() {
+        font-size: rem(50.92px);
+    } 
+    @include phones() {
+        font-size: rem(50.92px);
+    }
+}
+.slider-burger__cost-text{
+    @include gagalin;
+    font-size: rem(29.96px);
+    color: #e35028;
+    display: inline-block;
+    margin-right: rem(30px);
+}
+.slider-burger__order{
+    display: inline-block;
+}
+.slider-burger__order-text{
+@include inlineblock(middle);
+  margin-right: rem(20px);
+  border: 0;
+  background: $red;
+  font-size: rem(13px);
+  text-transform: uppercase;
+  border-radius: rem(5px);
+  color: #ffffff;
+  @include ubuntu(middle);
+  padding: rem(10px) rem(15px);
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align:text-bottom;
+}

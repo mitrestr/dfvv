@@ -1,14 +1,12 @@
 .btn {
-  padding: 12px 15px;
-  margin-top: 20px;
-  border-radius: 5px;
-  background-color: $red;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: $white;
-  font-size: 13px;
-  font-weight: 500;
-}
-.btn:hover {
-  background: #1f2122;
+	@include inlineblock();
+	background: $orange;
+	font-size: rem(13px);
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: rem(5px);
+	padding: rem(9px) rem(16px);
+	@include ubuntu(medium);
 }

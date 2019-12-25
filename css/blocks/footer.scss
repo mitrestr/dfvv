@@ -1,0 +1,47 @@
+.footer {
+	background: url("../../img/bg/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg") no-repeat;
+	background-size: cover;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  padding: rem(10px) 0;
+}
+
+.footer__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 60px;
+
+  	@include phones {
+		flex-direction: column;
+		padding: 0px 20px;
+		text-align: center;
+  	}
+}
+
+.footer__address {
+	color: #ffffff;
+	font-size: rem(14px);
+}
+
+.footer__phone {
+	color: $red;
+	@include ubuntu(bold);
+	text-decoration: none;
+	font-size: rem(14px);
+	svg:not(:root) {
+		width: 12px;
+		height: 12px;
+	}
+}
+
+.footer__col_right {
+  text-align: right;
+  margin-bottom: 0;
+
+	@include phones {
+		text-align: center;
+	}
+}

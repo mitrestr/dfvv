@@ -1,18 +1,26 @@
 .header {
-  position: absolute;
-  width: 100%;
-  padding-top: 12px;
-  z-index: 1;
-  height: 650px;
+	padding-top: rem(12px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
 }
 
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+  	align-items: center;
 }
 
-.header__wrapper {
-  margin-left: 15px;
+.nav {
+	margin-right: 20px;
+	@include tablets {
+		display: none;
+	}
+}
+
+.header__links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }

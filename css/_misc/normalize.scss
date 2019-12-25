@@ -227,6 +227,7 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+  background-size: 100% auto;
 }
 
 /* Forms
