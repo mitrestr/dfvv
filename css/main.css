@@ -359,8 +359,6 @@ button{
 }
 .best__list{
 	display: flex;
-	display: -ms-flexbox;
-	display: -webkit-box;
 }
 @media screen and (max-width:480px){
 	.best__list{
