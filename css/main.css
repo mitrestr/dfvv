@@ -228,7 +228,6 @@ body{
 .section{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	flex-direction: column;
 	height: 100vh;
 	justify-content: center;
@@ -329,7 +328,6 @@ button{
 	background-size: cover;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	ms-flex-align: center;
 	text-align: center;
 	webkit-box-align: center;
@@ -371,7 +369,6 @@ button{
 .best__item{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	flex-direction: column;
 	margin-bottom: 3.125rem;
 	ms-flex-direction: column;
@@ -476,7 +473,6 @@ button{
 	background: -webkit-linear-gradient(top, #f9b43b 0%, #eb8c38 40%, #eb8c38 60%, #eb8c38 60%, #f9b43b 100%);
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', endColorstr='#f9b43b',GradientType=0 );
 	justify-content: center;
 	ms-flex-align: center;
@@ -555,7 +551,6 @@ button{
 	align-items: center;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	justify-content: space-between;
 	ms-flex-align: center;
 	ms-flex-pack: justify;
@@ -653,7 +648,6 @@ button{
 .hamburger-menu_visible{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	opacity: 0;
 }
 .hamburger-menu__logo{
@@ -688,7 +682,6 @@ button{
 	align-items: center;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	justify-content: space-between;
 	ms-flex-align: center;
 	ms-flex-pack: justify;
@@ -701,7 +694,6 @@ button{
 	align-items: center;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	justify-content: space-between;
 	ms-flex-align: center;
 	ms-flex-pack: justify;
@@ -720,7 +712,6 @@ button{
 	align-items: center;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	justify-content: space-between;
 	ms-flex-align: center;
 	ms-flex-pack: justify;
@@ -740,7 +731,6 @@ button{
 .hero__content{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 }
 @media screen and (max-width:768px){
 	.hero__content{
@@ -753,7 +743,6 @@ button{
 .hero__container{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	flex: 1;
 	flex-direction: column;
 	justify-content: center;
@@ -821,7 +810,6 @@ button{
 	bottom: 1.25rem;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	height: 3.75rem;
 	justify-content: center;
 	left: 50%;
@@ -1075,7 +1063,6 @@ button{
 .order__form-row{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	margin-bottom: 1rem;
 }
 @media screen and (max-width:480px){
@@ -1221,7 +1208,6 @@ button{
 	bottom: 0;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	flex-direction: column;
 	left: 0;
 	ms-flex-align: center;
@@ -1440,7 +1426,6 @@ button{
 .section{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	overflow: hidden;
 	position: relative;
 }
@@ -1564,7 +1549,6 @@ button{
 .team-acco__item_active .team-acco__content{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 }
 .team-acco__content{
 	display: none;
@@ -1578,7 +1562,6 @@ button{
 .team-acco__pic{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	text-align: center;
 }
 @media screen and (max-width:768px){
@@ -1680,7 +1663,6 @@ button{
 	align-items: center;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	moz-user-select: none;
 	ms-flex-align: center;
 	ms-user-select: none;
@@ -1703,7 +1685,6 @@ button{
 	align-items: center;
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	ms-flex-align: center;
 	webkit-box-align: center;
 }
