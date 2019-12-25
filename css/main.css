@@ -1315,7 +1315,6 @@ button{
 .reviews__list{
 	display: flex;
 	display: -ms-flexbox;
-	display: -webkit-box;
 	flex-wrap: wrap;
 	height: 100%;
 	ms-flex-wrap: wrap;
