@@ -446,7 +446,7 @@ button{
 	}
 }
 .burger-weight__measure{
-	background: url("../../img/icons/kkal.svg") 50% no-repeat;
+	background: url("../img/icons/kkal.svg") 50% no-repeat;
 	background-size: contain;
 	height: 3.75rem;
 	position: relative;
@@ -868,7 +868,7 @@ button{
 	fill: #e45028;
 }
 .yandex-map{
-	background: url(../../img/bg/footer.jpg) center no-repeat;
+	background: url(../img/bg/footer.jpg) center no-repeat;
 	background-size: cover;
 	bottom: 0;
 	left: 0;
@@ -948,7 +948,7 @@ button{
 	}
 }
 .menu{
-	background: url("../../img/bg/menu.jpg") 50% no-repeat;
+	background: url("../img/bg/menu.jpg") 50% no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -1037,7 +1037,7 @@ button{
 }
 .order{
 	align-items: center;
-	background: url("../../img/bg/order.jpg") 50% no-repeat;
+	background: url("../img/bg/order.jpg") 50% no-repeat;
 	background-size: cover;
 	display: flex;
 	display: -ms-flexbox;
@@ -1192,7 +1192,7 @@ button{
 	background: transparent;
 }
 .order__radio_checkbox .order__radio-elem:checked+.order__radio-fake:after{
-	background: url("../../img/icons/check.svg") 50% no-repeat transparent;
+	background: url("../img/icons/check.svg") 50% no-repeat transparent;
 	background-size: contain;
 	height: 0.5625rem;
 	width: 0.6875rem;
