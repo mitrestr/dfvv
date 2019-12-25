@@ -1222,8 +1222,6 @@ button{
 }
 .popup-area__wrapper{
 	display: flex;
-	display: -ms-flexbox;
-	display: -webkit-box;
 	flex-direction: column;
 	height: 100vh;
 	justify-content: space-around;
