@@ -1626,7 +1626,7 @@ button{
 	font-weight: 300;
 }
 .team{
-	background: url("../../img/bg/teammate.jpg") 50% no-repeat;
+	background: url("../img/bg/teammate.jpg") 50% no-repeat;
 	background-size: cover;
 	position: relative;
 }
